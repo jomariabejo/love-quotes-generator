@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jomari Abejo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="">
+    <main class="d-flex flex-column align-items-center  h-auto   bg-dark w-100 pt-4 mt-4">
+        <div class="glass-button">
+            <h1 class="rainbow d-flex text-center font-weight-bold pt-4 pb-4 text-white prevent-select">Generate Love Quotes</h1> 
+        </div>
+        <div class="d-flex mt-4">
+            <div class="d-flex justify-content-center align-items-center w-100 rainbow-div">
+                <button type="button" class="glass-button m-2 d-flex justify-content-left align-items-center flex-row btn btn-danger " id="generate-btn">
+                    <ion-icon name="play-outline" class="" style="width: 2rem; height: 2rem;"></ion-icon> 
+                    <h4 class="mb-2">Generate</h4>
+                </button>
+            </div>
+            <div class="d-flex justify-content-center align-items-center w-100">
+                <button type=" button" class="glass-button m-2 d-flex justify-content-left align-items-center flex-row btn btn-warning" id="copy-btn">
+                    <ion-icon name="copy-outline" class="" style="width: 2rem; height: 2rem;"></ion-icon> 
+                    <h4 class="mb-2 ml-2">Copy</h4>
+                </button>
+            </div>
+        </div>
+        <!-- Generate Love Quotes Here -->
+        <div class="generate-code w-75 mb-4" id="generate-div">
+            <h1 id="generate-txt" class="prevent-select p-4 mt-4 h4" style="color:pink; background-color: rgba(0, 0, 0, 0.164);"> Click/Tap Generate</h1>
+        </div>
+    </main>
+    <footer class="p-4 m-4 d-flex justify-content-center align-items-center">
+        <a href="https://github.com/jomariabejo" class="d-flex justify-content-center align-items-center text-center ">
+            <ion-icon name="logo-github" style="height: 2rem; width: 2rem;"></ion-icon>
+            <h4 class="mt-2 pl-2">Jomari Abejo</h4>
+        </a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
